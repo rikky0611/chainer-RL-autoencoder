@@ -3,9 +3,9 @@ Chainer Implementation of AutoEncoder for Deep Reinforcement Learning
 You can use this repository to make an encoder for visual Deep Reinforcement Learning.
 
 ## Requirements
-gym == 0.9.2
-chainer >= 3.3.0
-numpy >= 1.14.0
+gym == 0.9.2    
+chainer >= 3.3.0    
+numpy >= 1.14.0   
 cupy >= 4.0.0 (if you use gpu)
 
 ## Prepare Dataset
@@ -31,6 +31,6 @@ You can just run, for example
 - `--snapshot_interval`: interval iterations for snapshot
 - `--display_interval`: interval iterations for display image and log
 
-### Example results
+### Example result
 
 <img width="933" alt="sample_result" src="https://user-images.githubusercontent.com/12772049/41498558-a2eb4656-71ab-11e8-8a49-e3f17016c603.png">
