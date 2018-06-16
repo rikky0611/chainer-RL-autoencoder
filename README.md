@@ -9,7 +9,7 @@ numpy >= 1.14.0
 cupy >= 4.0.0 (if you use gpu)
 
 ## Prepare Dataset
-You can just run, for example
+You can just run, for example   
 
 `python make_dataset.py --env Bowling-v0`
 
@@ -18,8 +18,10 @@ You can actually skip this command since it is implemented and called in `train.
 
 ## How to Run
 You can just run, for example
+
 `python train.py --env Bowling-v0`
 
+The default network is a convolutional autoencoder. You can modify in `net.py`
 ### Arguments
 
 - `--env`: gym environment name
