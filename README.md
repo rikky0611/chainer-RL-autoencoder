@@ -1,6 +1,8 @@
 # chainer-RL-autoencoder
 Chainer Implementation of AutoEncoder for Deep Reinforcement Learning   
-You can use this repository to make an encoder for visual Deep Reinforcement Learning.
+You can use this repository to make an encoder for visual Deep Reinforcement Learning.    
+Currently this repository is adapted to gym environments which observation space is  `Box(210, 160, 3)` or `Box(250, 160, 3)`.    
+See [Table of environments](https://github.com/openai/gym/wiki/Table-of-environments) to know the observation space.
 
 ## Requirements
 gym == 0.9.2    
